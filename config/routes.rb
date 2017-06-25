@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  root 'pages#home' #this is reseting the home page from the default
+  get 'about' => 'pages#about' #creates about_path for links
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
