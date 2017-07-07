@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :pins
   devise_for :users
-  root 'pages#home' #this is reseting the home page from the default
+  root 'pins#index' #this is reseting the home page from the default
   get 'about' => 'pages#about' #creates about_path for links
   get 'contact' => 'pages#contact'
 
