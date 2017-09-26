@@ -1,0 +1,3 @@
+1) update text on page
+2) add content to actually show pagination
+3) add contact form from rockpass
